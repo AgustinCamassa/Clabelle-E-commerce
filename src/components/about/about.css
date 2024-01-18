@@ -21,6 +21,8 @@
         display: grid;
         justify-content: center;
         align-items: center;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
 
     .sectionImg {
