@@ -5,7 +5,8 @@
 }
 
 .footerBox {
-
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 .tr {
@@ -28,7 +29,7 @@
 
 .boxContacto {
     display: flex;
-    gap: 1rem;
+    gap: 3rem;
     padding-bottom: 1rem;
 }
 
@@ -48,11 +49,13 @@
     display: grid;
     flex: 50%;
     gap: 1rem;
+    max-width: 45%;
 }
 
 .iconBoxPago {
     display: flex;
     justify-content: space-between;
+    margin-right: 3rem;
 }
 
 .infoRedContacto {
@@ -60,7 +63,7 @@
 }
 
 .textTitulo {
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 .textoA {
@@ -80,7 +83,41 @@
     padding-top: 1rem;
 }
 
+@media (max-width: 1030px) {
+    .footerBox {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+
+    .iconBoxPago {
+        margin-right: 0;
+    }
+
+    .sectionPago {
+        display: grid;
+        flex: 50%;
+        gap: 1rem;
+        max-width: auto;
+    }
+
+    .sectionContacto {
+        display: grid;
+        max-width: 50%;
+    }
+
+    .boxContacto {
+        display: flex;
+        gap: 1rem;
+        padding-bottom: 1rem;
+    }
+}
+
 @media (max-width: 725px) {
+    .footerBox {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+
     .articleSuperior {
         display: grid;
         justify-content: center;
@@ -91,9 +128,18 @@
     .articleSuperior {
         gap: 2rem;
     }
+
+    .iconBoxPago {
+        margin-right: 0;
+    }
 }
 
 @media (max-width: 430px) {
+    .footerBox {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+
     .boxContacto {
         display: grid;
         gap: 1rem;
@@ -101,6 +147,10 @@
 
     .articleSuperior {
         gap: 2rem;
+    }
+
+    .iconBoxPago {
+        margin-right: 0;
     }
 }
 
