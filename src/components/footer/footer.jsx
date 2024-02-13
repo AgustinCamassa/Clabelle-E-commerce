@@ -28,14 +28,7 @@ const footer = () => {
             </div>
 
             <div className="formaContacto">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                height="30"
-                viewBox="0 -960 960 960"
-                width="30"
-              >
-                <path d="M260-40q-24 0-42-18t-18-42v-760q0-24 18-42t42-18h440q24 0 42 18t18 42v760q0 24-18 42t-42 18H260Zm0-90v30h440v-30H260Zm0-60h440v-580H260v580Zm0-640h440v-30H260v30Zm0 0v-30 30Zm0 700v30-30Z" />
-              </svg>
+            <img className="png" src="./src/assets/icons/ig-oscuro.png" alt="" />
               <div>
                 <a className="textoB">Instagram</a>
                 <a className="textoA">@clabelle.mya</a>
@@ -66,14 +59,8 @@ const footer = () => {
 
           <div className="boxPago">
             <div className="iconBoxPago">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                height="30"
-                viewBox="0 -960 960 960"
-                width="30"
-              >
-                <path d="M880-740v520q0 24-18 42t-42 18H140q-24 0-42-18t-18-42v-520q0-24 18-42t42-18h680q24 0 42 18t18 42ZM140-631h680v-109H140v109Zm0 129v282h680v-282H140Zm0 282v-520 520Z" />
-              </svg>
+
+              <img className="png" src="./src/assets/icons/efectivo-oscuro@10x.png" alt="" />
 
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -93,23 +80,9 @@ const footer = () => {
                 <path d="M212-241v-339h60v339h-60Zm242 0v-339h60v339h-60ZM80-121v-60h800v60H80Zm608-120v-339h60v339h-60ZM80-640v-53l400-228 400 228v53H80Zm134-60h532-532Zm0 0h532L480-852 214-700Z" />
               </svg>
 
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                height="30"
-                viewBox="0 -960 960 960"
-                width="30"
-              >
-                <path d="M880-740v520q0 24-18 42t-42 18H140q-24 0-42-18t-18-42v-520q0-24 18-42t42-18h680q24 0 42 18t18 42ZM140-631h680v-109H140v109Zm0 129v282h680v-282H140Zm0 282v-520 520Z" />
-              </svg>
+              <img className="png" src="./src/assets/icons/modo-oscuro@4x.png" alt="" />
 
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                height="30"
-                viewBox="0 -960 960 960"
-                width="30"
-              >
-                <path d="M880-740v520q0 24-18 42t-42 18H140q-24 0-42-18t-18-42v-520q0-24 18-42t42-18h680q24 0 42 18t18 42ZM140-631h680v-109H140v109Zm0 129v282h680v-282H140Zm0 282v-520 520Z" />
-              </svg>
+              <img className="png" src="./src/assets/icons/mp-oscuro@10x.png" alt="" />
 
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -119,6 +92,7 @@ const footer = () => {
               >
                 <path d="M440-280H280q-83 0-141.5-58.5T80-480q0-83 58.5-141.5T280-680h160v80H280q-50 0-85 35t-35 85q0 50 35 85t85 35h160v80ZM320-440v-80h320v80H320Zm200 160v-80h160q50 0 85-35t35-85q0-50-35-85t-85-35H520v-80h160q83 0 141.5 58.5T880-480q0 83-58.5 141.5T680-280H520Z" />
               </svg>
+
             </div>
 
             <div>
