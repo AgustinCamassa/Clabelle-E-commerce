@@ -7,7 +7,8 @@ export default {
       primary: "#C126B8",
       white: "#FFFFFF",
       black: "#1D110D",
-      text: "##747171",
+      text: "#747171",
+      gray: "#FAFAFA",
     },
     fontSize: {
       h1: [

@@ -1,0 +1,14 @@
+.btn {
+  background-color: theme("colors.primary");
+  padding: 20px 64px !important;
+  color: white !important;
+  cursor: pointer !important;
+  transition: all 0.3s !important;
+  text-decoration: none !important;
+  box-shadow: none !important;
+}
+
+.btn:hover {
+  background-color: theme("colors.black");
+  color: white !important;
+}

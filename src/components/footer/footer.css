@@ -1,184 +1,178 @@
 * {
-    margin: 0;
-    padding: 0;
-   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .footerBox {
-    margin-left: 2rem;
-    margin-right: 2rem;
+  margin-left: 0rem;
+  margin-right: 0rem;
 }
 
 .png {
-    width: 30px;
-    height: 30px;
+  width: 30px;
+  height: 30px;
 }
 
 .tr {
-    display: flex;
-    background-color: #a7a5a5;
-    height: 2px;
-    margin: 3rem 2rem 2rem 2rem;
+  display: flex;
+  background-color: #a7a5a5;
+  height: 2px;
+  margin: 3rem 2rem 2rem 2rem;
 }
 
 .articleSuperior {
-    display: flex;
-    justify-content: space-between;
-    margin: 0rem 2rem;
-    gap: 8rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 0rem 2rem;
+  gap: 8rem;
 }
 
 .sectionContacto {
-    display: grid;
+  display: grid;
 }
 
 .boxContacto {
-    display: flex;
-    gap: 3rem;
-    padding-bottom: 1rem;
+  display: flex;
+  gap: 3rem;
+  padding-bottom: 1rem;
 }
 
 .formaContacto {
-    display: flex;
-    gap: 3px;
+  display: flex;
+  gap: 3px;
 }
 
 .infoContacto {
-    display: grid;
+  display: grid;
 }
 
 .formaContacto {
-    display: flex;
+  display: flex;
 }
 
 .sectionPago {
-    display: grid;
-    flex: 50%;
-    gap: 1rem;
-    max-width: 45%;
+  display: grid;
+  flex: 50%;
+  gap: 1rem;
+  max-width: 45%;
 }
 
 .iconBoxPago {
-    display: flex;
-    justify-content: space-between;
-    margin-right: 3rem;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 3rem;
 }
 
 .infoRedContacto {
-
 }
 
 .textTitulo {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 
 .textoA {
-    display: block;
-    font-size: 0.8rem;
-    color: #747171;
+  display: block;
+  font-size: 0.8rem;
+  color: #747171;
 }
 
 .textoB {
-    display: block;
-    font-size: 0.8rem;
+  display: block;
+  font-size: 0.8rem;
 }
 
 .textoG {
-    display: block;
-    font-size: 0.8rem;
-    padding-top: 1rem;
+  display: block;
+  font-size: 0.8rem;
+  padding-top: 1rem;
 }
 
 @media (max-width: 1030px) {
-    .footerBox {
-        margin-left: 0rem;
-        margin-right: 0rem;
-    }
+  .iconBoxPago {
+    margin-right: 0;
+  }
 
-    .iconBoxPago {
-        margin-right: 0;
-    }
+  .sectionPago {
+    display: grid;
+    flex: 50%;
+    gap: 1rem;
+    max-width: auto;
+  }
 
-    .sectionPago {
-        display: grid;
-        flex: 50%;
-        gap: 1rem;
-        max-width: auto;
-    }
+  .sectionContacto {
+    display: grid;
+    max-width: 50%;
+  }
 
-    .sectionContacto {
-        display: grid;
-        max-width: 50%;
-    }
-
-    .boxContacto {
-        display: flex;
-        gap: 1rem;
-        padding-bottom: 1rem;
-    }
+  .boxContacto {
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 1rem;
+  }
 }
 
 @media (max-width: 725px) {
-    .footerBox {
-        margin-left: 0rem;
-        margin-right: 0rem;
-    }
+  .footerBox {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
 
-    .articleSuperior {
-        display: grid;
-        justify-content: center;
-        gap: 1;
-        margin: 0.6;
-    }
+  .articleSuperior {
+    display: grid;
+    justify-content: center;
+    gap: 1;
+    margin: 0.6;
+  }
 
-    .articleSuperior {
-        gap: 2rem;
-    }
+  .articleSuperior {
+    gap: 2rem;
+  }
 
-    .iconBoxPago {
-        margin-right: 0;
-    }
+  .iconBoxPago {
+    margin-right: 0;
+  }
 }
 
 @media (max-width: 430px) {
-    .footerBox {
-        margin-left: 0rem;
-        margin-right: 0rem;
-    }
+  .footerBox {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
 
-    .boxContacto {
-        display: grid;
-        gap: 1rem;
-    }
+  .boxContacto {
+    display: grid;
+    gap: 1rem;
+  }
 
-    .articleSuperior {
-        gap: 2rem;
-    }
+  .articleSuperior {
+    gap: 2rem;
+  }
 
-    .iconBoxPago {
-        margin-right: 0;
-    }
+  .iconBoxPago {
+    margin-right: 0;
+  }
 }
 
 .articleMedio {
-    margin: 1.5rem 2.5rem;
+  margin: 1.5rem 2.5rem;
 }
 
 .marcaFooter {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 .ubicacionFooter {
-    font-size: 0.8rem;
+  font-size: 0.8rem;
 }
 
 .articleInferior {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    background-color: #C126B8;
-    color: #FFFFFF;
-    padding: 1rem;
-    font-size: 0.9rem;
+  background-color: #c126b8;
+  color: #ffffff;
+  padding: 1rem;
+  font-size: 0.9rem;
 }
