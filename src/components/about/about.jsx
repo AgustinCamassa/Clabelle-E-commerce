@@ -1,5 +1,6 @@
 import "./about.css";
 import Claudia2 from "../../assets/img/Claudia2.jpg";
+import igblanco from "../../assets/icons/ig-blanco.png";
 
 const about = () => {
   return (
@@ -20,11 +21,7 @@ const about = () => {
           </p>
           <div className="flex items-center my-12">
             <div>
-              <img
-                className="png"
-                src="./src/assets/icons/ig-blanco.png"
-                alt=""
-              />
+              <img className="png" src={igblanco} alt="" />
             </div>
             <h2>@Clabelle.mya</h2>
           </div>

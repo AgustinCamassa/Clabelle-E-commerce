@@ -1,14 +1,18 @@
 import "./footer.css";
+import igoscuro from "../../assets/icons/ig-oscuro.png";
+import efectivooscuro from "../../assets/icons/efectivo-oscuro.png";
+import modooscuro from "../../assets/icons/modo-oscuro.png";
+import mp from "../../assets/icons/mp.png";
 
 const footer = () => {
   return (
     <footer className="footerBox" id="contact">
-
-      <div className="tr"><p> </p></div>
+      <div className="tr">
+        <p> </p>
+      </div>
 
       <article className="articleSuperior">
         <section className="sectionContacto">
-
           <p className="textTitulo">Contacto</p>
 
           <div className="boxContacto">
@@ -28,7 +32,7 @@ const footer = () => {
             </div>
 
             <div className="formaContacto">
-            <img className="png" src="./src/assets/icons/ig-oscuro.png" alt="" />
+              <img className="png" src={igoscuro} alt="" />
               <div>
                 <a className="textoB">Instagram</a>
                 <a className="textoA">@clabelle.mya</a>
@@ -50,17 +54,14 @@ const footer = () => {
               </div>
             </div>
           </div>
-
         </section>
 
         <section className="sectionPago">
-
           <p className="textTitulo">Medios de pago</p>
 
           <div className="boxPago">
             <div className="iconBoxPago">
-
-              <img className="png" src="./src/assets/icons/efectivo-oscuro@10x.png" alt="" />
+              <img className="png" src={efectivooscuro} alt="" />
 
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -80,9 +81,9 @@ const footer = () => {
                 <path d="M212-241v-339h60v339h-60Zm242 0v-339h60v339h-60ZM80-121v-60h800v60H80Zm608-120v-339h60v339h-60ZM80-640v-53l400-228 400 228v53H80Zm134-60h532-532Zm0 0h532L480-852 214-700Z" />
               </svg>
 
-              <img className="png" src="./src/assets/icons/modo-oscuro@4x.png" alt="" />
+              <img className="png" src={modooscuro} alt="" />
 
-              <img className="png" src="./src/assets/icons/mp-oscuro@10x.png" alt="" />
+              <img className="png" src={mp} alt="" />
 
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -92,7 +93,6 @@ const footer = () => {
               >
                 <path d="M440-280H280q-83 0-141.5-58.5T80-480q0-83 58.5-141.5T280-680h160v80H280q-50 0-85 35t-35 85q0 50 35 85t85 35h160v80ZM320-440v-80h320v80H320Zm200 160v-80h160q50 0 85-35t35-85q0-50-35-85t-85-35H520v-80h160q83 0 141.5 58.5T880-480q0 83-58.5 141.5T680-280H520Z" />
               </svg>
-
             </div>
 
             <div>
@@ -103,7 +103,6 @@ const footer = () => {
               </a>
             </div>
           </div>
-
         </section>
       </article>
 
