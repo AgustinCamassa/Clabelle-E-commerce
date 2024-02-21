@@ -13,3 +13,7 @@
 
 #btn-secondary {
 }
+
+:root {
+  --swiper-theme-color: theme("colors.white");
+}

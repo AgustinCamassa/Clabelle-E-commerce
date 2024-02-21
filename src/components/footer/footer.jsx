@@ -60,7 +60,7 @@ const footer = () => {
           <p className="textTitulo">Medios de pago</p>
 
           <div className="boxPago">
-            <div className="iconBoxPago">
+            <div className="iconBoxPago space-x-2 lg:space-x-8 xl:space-x-16">
               <img className="png" src={efectivooscuro} alt="" />
 
               <svg
